@@ -2,7 +2,7 @@
 
 # install conda
 $ cd Downloads
-$ Anaconda3-2020.07-Linux-x86_64.sh
+$ bash Anaconda3-2020.07-Linux-x86_64.sh
 
 # creat environment
 $ conda create --name lateral python=3.7
