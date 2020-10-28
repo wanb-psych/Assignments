@@ -1,2 +1,3 @@
 # Assignment
-python practice of neuroimaging: functional and structural index, gradients, so forth
+# python practice of neuroimaging: functional and structural index, gradients, so forth
+# First lesson
