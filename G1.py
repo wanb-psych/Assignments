@@ -6,6 +6,7 @@ $ filename = '/data/hu_binwan/Desktop/covariance_gradients.csv'
 $ dataframe = pd.read_csv(filename, header=None)
 
 # read the first column of the data 'first gradient G1'
+$ import numpy as np
 $ G1 = np.array(dataframe[0])
 
 # register our own data to the brainspace
@@ -17,5 +18,6 @@ $ mask = labeling != 0
 $ G1_labelled = map_to_labels(G1, labeling, mask=mask, fill=np.nan)
 
 # plot the brain gradient map (G1 visualization)
+$ from brainspace.plotting import plot_hemispheres
 $ plot_hemispheres(surf_lh, surf_rh, array_name=G1_labelled, size=(1600, 400), cmap='viridis_r',
                  color_bar=True, label_text=['Grad1'], zoom=1., embed_nb=True)
