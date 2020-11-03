@@ -1,3 +1,5 @@
+# use hpc s1200 data, subject 100307 as example, clean nii file: rfMRI_REST1_LR_hp2000_clean.nii.gz
+
 $ from nilearn import datasets
 $ template = datasets.fetch_atlas_schaefer_2018()
 $ atlas = template.map
