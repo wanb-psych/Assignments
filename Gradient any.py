@@ -1,6 +1,6 @@
 $ import pandas as pd
 $ filename = '/data/hu_binwan/Desktop/covariance_gradients.csv'
-$ dataframe = pd.read_csv(filename, header=N
+$ dataframe = pd.read_csv(filename, header=N)
 
 $ import numpy as np
 $ grad = [None] * 10
