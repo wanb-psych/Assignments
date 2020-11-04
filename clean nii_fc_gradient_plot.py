@@ -2,7 +2,7 @@
 
 $ from nilearn import datasets
 $ template = datasets.fetch_atlas_schaefer_2018()
-$ atlas = template.map
+$ atlas = template.maps
 $ labels = template.labels
 
 $ from nilearn.input_data import NiftiLabelsMasker
